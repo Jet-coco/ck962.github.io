@@ -66,6 +66,7 @@
 		animation-fill-mode: none;
 	}
 }
+/*Time of post*/
 body {
 	background-color: #FFFFFF;
 	background-color: rgb(255,255,255);
@@ -77,6 +78,7 @@ body {
 	line-height: 30px;
 	padding: 0px 0px;
 }
+/*Body of post*/
 p {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	color: #666;
@@ -97,6 +99,7 @@ h2,
 h3,
 h4,
 h5,
+/*title of top saying*/
 h6 {
 	margin-top: 0;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
@@ -107,8 +110,8 @@ h6 {
 h2 {
 	text-transform: uppercase;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 22px;
+	font-weight: 325;
+	font-size: 40px;
 	line-height: 30px;
 	letter-spacing: 1px;
 }
@@ -295,7 +298,7 @@ hr {
 	left: 0;
 }
 .element-img {
-	-webkit-background-size: cover;
+	-webkit--size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -510,7 +513,7 @@ a.custom-button span {
 	display:inline-block;
 }
 .navbar .nav > li > span {
-	font-size: 12px
+	font-size: 15px
 }
 .navbar .nav > li a:hover {
 	background-color: transparent;
@@ -523,27 +526,27 @@ a.custom-button span {
 	display: block;
 	padding:0px 10px;
 	margin:23px 0px;
-	color: #151515;
+	color: #f5f5f5;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 11px;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 14px;
 	text-shadow: none;
-	border-right:1px solid #aaa;
+	border-right:1px solid #f5f5f5;
 }
 .navbar .nav li.nolink {
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	color: #151515;
+	color: #f5f5f5;
 	font-weight: 400;
 	text-shadow: none;
 	letter-spacing: 1px;
 	line-height: 14px;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 15px;
 	margin:23px 0px;
-	border-right:1px solid #aaa;
+	border-right:1px solid #f5f5f5;
 	padding: 0px 10px;
 }
 nav i.icon-basic-eye {
@@ -598,7 +601,6 @@ nav i.icon-basic-eye {
 	color:#777;
 }
 @media only screen and (max-width: 1024px) {
-
 	.logo img:hover {
 		top:0px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -851,7 +853,7 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
+	color: #f5f5f5;
 	margin-bottom: 20px;
 	display: inline-block;
 	padding: 14px;
